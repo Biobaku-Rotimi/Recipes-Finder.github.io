@@ -1,0 +1,223 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    color: rgb(11, 77, 11);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(240, 239, 234);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(231, 226, 226);
+}
+.flower img{
+    width: 30px;
+}
+.flower{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.links{
+    display: flex;
+    gap: 10px;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+button{
+    padding: 10px;
+    color: white;
+    background-color: rgb(8, 65, 8);
+    border-radius: 3px;
+    border: none;
+}
+.links a span{
+    position: absolute;
+    background-color: yellow;
+    width: 45px;
+    height: 2px;
+    bottom: -3px;
+}
+.home-section{
+    width: 100%;
+    margin: 3% auto;
+}
+.healthy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0% auto;
+    padding-bottom: 30px;
+    gap: 15px;
+    position: relative;
+}
+.healthy h1{
+    font-size: 3rem;
+    
+}
+.healthy span{
+    position: absolute;
+    background-color: yellow;
+    width: 180px;
+    height: 15px;
+    bottom: 120px;
+    z-index: -1;
+}
+.girl{
+    width: 80%;
+    margin: 0% 10%;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+.what{
+    font-size: 2rem;
+    margin: 20px 35%;
+}
+.meats{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10%;
+    padding-top: 0px;
+}
+.meat{
+    width: 30%;
+}
+.built{
+    display: flex;
+    align-items: center;
+    margin: 10% 10% 3%;
+    gap: 30px;
+}
+.builts{
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+.built img{
+    width: 50%;
+    border-radius: 5px;
+}
+.built h4{
+    font-size: 1.5rem;
+}
+.last{
+    margin: 0% 10%;
+    background-color: rgb(169, 240, 169);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    border-radius: 5px;
+}
+.last h4{
+    font-size: 1.5rem;
+}
+footer{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0% auto;
+    padding: 20px 0px;
+}
+.ig{
+    display: flex;
+    gap: 10px;
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0% auto;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+.recipe-section{
+    width: 80%;
+    margin: 5% auto;
+}
+.explore h3{
+    font-size: 2.5rem;
+}
+.btnall{
+    display: flex;
+    justify-content: space-between;
+}
+.btnd{
+    display: flex;
+    gap: 10px;
+}
+.btnall button{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.food .imagediv{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.food img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.food{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+    height: 500px;
+    border: 5px solid white;
+}
+.food h4{
+    padding: 0px 10px;
+}
+.food p{
+    padding: 0px 10px;
+}
+.food button{
+    border-radius: 50px;
+}
+nav{
+    width: 100%;
+    gap: 20px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    padding-bottom: 10px;
+
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.icon1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0px 10px;
+}
